@@ -26,7 +26,9 @@ We can use a vegachart HTML tag like so:
 
 This plot I created for fun
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Agency+graph.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/bigfootmap.json" style="width: 100%"></vegachart>
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/humidity_sitings.json" style="width: 100%"></vegachart>
 
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
