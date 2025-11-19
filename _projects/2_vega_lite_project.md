@@ -11,20 +11,13 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# Bigfoot Sitings!
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
-
-We can use a vegachart HTML tag like so:
-
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+The following are visualizations using altair.
 
 
-This plot I created for fun
+
+This plot I created to show if there is any relation between weather and bigfoot sightings as well as temprature. 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bigfootmap.json" style="width: 100%"></vegachart>
 
@@ -36,7 +29,7 @@ In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hoo
 
 ## Search The Data & Methods
 
-Below is where we can put some links to both the data and the analysis code as buttons:
+Below are links to the dataset and the jupyter notebook used for analysis:
 
 ```
 <div class="left">
@@ -51,9 +44,9 @@ Below is where we can put some links to both the data and the analysis code as b
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/jfiel5/jfiel5.github.io/blob/main/python_notebooks/homework5_script.ipynb" text="The Analysis" %}
 </div>
