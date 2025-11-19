@@ -25,6 +25,7 @@ We can use a vegachart HTML tag like so:
 
 
 This plot I created for fun
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Agency+graph.json" style="width: 100%"></vegachart>
 
 
